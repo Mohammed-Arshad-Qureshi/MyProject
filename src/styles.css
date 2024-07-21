@@ -1,1 +1,21 @@
-/* You can add global styles to this file, and also import other style files */
+:root{
+    --primarycolor:#f6f6f6;
+    --secondarycolor:#3d629d;
+    --abcd-variable:inset 4px 4px 6px black;
+    --text-color:grey;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--primarycolor);
+}
+
+body.dark{
+    --primarycolor:rgb(26, 26, 26);
+    --text-color:pink;
+}

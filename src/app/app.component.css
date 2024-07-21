@@ -1,0 +1,28 @@
+.container{
+
+    background-color: var(--secondarycolor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    flex-flow: row wrap;
+}
+
+.card{
+    width: calc(90%/3);
+    height: 250px;
+    background-color: var(--primarycolor);
+    margin: 5px;
+}
+
+#button{
+    padding: 10px 20px;
+    background-color: var(--primarycolor);
+    border-radius: 7px;
+    border: none;
+}
+
+#button span{
+    color: var(--text-color);
+}
